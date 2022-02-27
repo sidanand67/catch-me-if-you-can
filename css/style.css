@@ -113,6 +113,9 @@ button:active{
 }
 
 @media all and (max-width:700px){
+    html{
+        font-size: 12px; 
+    }
     .board {
         width: 80vw; 
     }
