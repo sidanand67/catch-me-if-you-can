@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch Me If You Can</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>👻 Catch me if you can 👻</h1>
+    </header>
+    
+    <section class="game-start">
+        <p>Do you wanna play the game?</p>
+        <div class="btn-grp">
+            <button id="yes">Yes</button>
+            <button id="no">No</button>
+        </div>
+    </section>
+
+    <section class="game-state">
+        <div class="game-info">
+            <p>Lives <span class="hearts">❤️❤️❤️❤️❤️</span></p>
+            <p class="score">Score <span id="score-value">00</span></p>
+        </div>
+        <div class="board">
+            <p id="emoji" class="emoji">👻</p>
+        </div>
+        <button id="quit">Quit</button>
+    </section>
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>
