@@ -111,3 +111,9 @@ button:active{
 #quit{
     background-color: #660708;
 }
+
+@media all and (max-width:700px){
+    .board {
+        width: 80vw; 
+    }
+}
