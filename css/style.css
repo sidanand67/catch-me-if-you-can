@@ -11,15 +11,15 @@ body{
 header{
     text-align: center;
     background-color: #03071e;
-    color: white; 
     padding: 0.5rem;
     letter-spacing: 1px;
     font-size: 1.2rem;
 }
 
-header h1{
+header h1 a{
+    text-decoration: none;
+    color: white; 
     font-family: 'Bebas Neue', cursive;
-
 }
 
 .game-state{
@@ -115,6 +115,7 @@ button:active{
         font-size: 12px; 
     }
     .board {
-        width: 80vw; 
+        width: 85vw; 
+        height: 70vh; 
     }
 }
