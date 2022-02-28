@@ -103,10 +103,7 @@ button:active{
 .emoji{
     font-size: 2.2rem;
     display: inline-block; 
-}
-
-.emoji:hover{
-    cursor: pointer;
+    cursor: grab; 
 }
 
 #quit{

@@ -64,7 +64,7 @@ function runGame() {
             hearts.textContent += "❤️"; 
         }
         
-    }, 900);
+    }, 950);
 }
 
 function quitGame() {
